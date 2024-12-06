@@ -17,15 +17,16 @@ Este portfólio foi desenvolvido para apresentar minhas experiências, projetos 
 - **JavaScript**  
 - **Bootstrap**  
 - **Git & GitHub**  
-- **Figma (UI/UX Design)**  
-
+- **Figma (UI/UX Design)**
+   
 ## 🌟 Funcionalidades
 - Apresentação profissional e links para redes sociais.
 - Seção de projetos com descrição e links para repositórios no GitHub.
 - Certificados e formações.
 - Contato direto via formulário.
 
- ## 📧 Contato
+## 📧 Contato
 - **Email:** [business.carolmartins@gmail.com](mailto:business.carolmartins@gmail.com)
 - **LinkedIn:** [linkedin.com/in/caroline-amancio-martins](https://linkedin.com/in/caroline-amancio-martins)
 - **GitHub:** [github.com/Caroline-A-Martins](https://github.com/Caroline-A-Martins)
+

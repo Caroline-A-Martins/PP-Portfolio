@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caroline Martins | Portfolio</title>
+    <meta name="description"
+        content="Portfólio da desenvolvedora front-end Caroline Martins para compartilhar projetos e habilidades desenvolvidas.">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="header__nav">
+            <ul class="menu menu--principal">
+                <li class="menu__item">
+                    <a class="menu__link active" href="#home">
+                        <span class="menu__text">Home</span>
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="#projetos">
+                        <span class="menu__text">Projetos</span>
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="#sobre">
+                        <span class="menu__text">Sobre</span>
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="#contato">
+                        <span class="menu__text">Contato</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="header__brand">
+            <a href="#home">
+                <p class="brand__logo">CAROL MARTINS</p>
+            </a>
+        </div>
+        <div class="header__toggle">
+            <i id="toggleTheme" class="bi bi-sun"></i>
+        </div>
+    </header>
+    <nav class="nav--mobile">
+        <ul class="menu menu--mobile">
+            <li class="menu__item">
+                <a class="menu__link active" href="#home">
+                    <i class="menu__icon bi bi-house-door"></i>
+                    <span class="menu__text">Home</span>
+                </a>
+            </li>
+            <li class="menu__item">
+                <a class="menu__link" href="#projetos">
+                    <i class="menu__icon bi bi-window-stack"></i>
+                    <span class="menu__text">Projetos</span>
+                </a>
+            </li>
+            <li class="menu__item">
+                <a class="menu__link" href="#sobre">
+                    <i class="menu__icon bi bi-person"></i>
+                    <span class="menu__text">Sobre</span>
+                </a>
+            </li>
+            <li class="menu__item">
+                <a class="menu__link" href="#contato">
+                    <i class="menu__icon bi bi-envelope"></i>
+                    <span class="menu__text">Contato</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <main id="home">
+        <div class="main__content1">
+            <h1><b>Soluções Criativas &</b> Desenvolvimento Front-end</h1>
+            <p>Caroline Martins, Itapetininga-SP, Desenvolvedora Front-end.</p>
+            <ul class="menu menu--social">
+                <li>
+                    <a class="menu__link" href="https://github.com/Caroline-A-Martins" target="_blank">
+                        <i class="menu__icon bi bi-github"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="menu__link" href="https://www.linkedin.com/in/caroline-amancio-martins/" target="_blank">
+                        <i class="menu__icon bi bi-linkedin"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="menu__link" href="https://www.instagram.com/mcarolzita/" target="_blank">
+                        <i class="menu__icon bi bi-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+            <a href="#projetos">
+                <button class="btn btn--primary">
+                    <span>Ver Projetos</span>
+                    <i class="bi bi-arrow-down-right"></i>
+                </button>
+            </a>
+        </div>
+    </main>
+
+    <section class="technologies">
+        <h2>Conhecimento nas principais tecnologias do mercado</h2>
+        <ul class="technologies__list">
+            <li class="technologies__item">
+                <img class="technologies__logo" src="./assets/images/technologies/Html.svg" alt="Logo HTML">
+            </li>
+            <li class="technologies__item">
+                <img class="technologies__logo" src="./assets/images/technologies/Css.svg" alt="Logo Css">
+            </li>
+            <li class="technologies__item">
+                <img class="technologies__logo" src="./assets/images/technologies/JavaScript.svg" alt="Logo JavaScript">
+            </li>
+        </ul>
+    </section>
+
+    <section id="projetos" class="projects">
+        <h2>Projetos</h2>
+        <div class="projects__container">
+            <div class="projects__card">
+                <img class="card__cover" src="assets/images/projects/Caféinamente Desktop.png" alt="Capa Caféinamente">
+                <div class="card__body">
+                    <h3 class="card__title">Caféinamente</h3>
+                    <p class="card__description">Livro de receitas com café</p>
+                    <ul class="card__list">
+                        <li class="card__item">Pesquisa dinamica;</li>
+                        <li class="card__item">Lista de ingredientes;</li>
+                        <li class="card__item">Modo de preparo;</li>
+                    </ul>
+                    <ul class="technologies__list">
+                        <li class="technologies__item">
+                            <img class="technologies__logo" src="./assets/images/technologies/Html.svg" alt="Logo HTML">
+                        </li>
+                        <li class="technologies__item">
+                            <img class="technologies__logo" src="./assets/images/technologies/Css.svg"
+                                alt="Logo Css">
+                        </li>
+                        <li class="technologies__item">
+                            <img class="technologies__logo" src="assets/images/technologies/JavaScript.svg"
+                                alt="Logo JavaScript">
+                        </li>
+                    </ul>
+                    <div class="card__buttons">
+                        <button class="btn btn--primary">
+                            <a href="https://cafeinamente.vercel.app/" target="_blank">
+                                <span>Prévia</span>
+                                <i class="bi bi-arrow-up-right"></i>
+                            </a>
+                        </button>
+                        <button class="btn">
+                            <a href="https://github.com/Caroline-A-Martins/Cafeinamente.git" target="_blank">
+                                <span>Repositório</span>
+                            </a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="projects__card card--reverse">
+                <img class="card__cover" src="assets/images/projects/Piano-Simulator.png" alt="Capa Archstil">
+                <div class="card__body">
+                    <h3 class="card__title">Piano Simulador</h3>
+                    <p class="card__description">Testando suas habilidades musicais</p>
+                    <ul class="card__list">
+                        <li class="card__item">Tocar notas usando o teclado ou o mouse;</li>
+                        <li class="card__item">Ajustar o volume ;</li>
+                        <li class="card__item">Esconder as letras das teclas.</li>
+                    </ul>
+                    <ul class="technologies__list">
+                        <li class="technologies__item">
+                            <img class="technologies__logo" src="./assets/images/technologies/Html.svg" alt="Logo HTML">
+                        </li>
+                        <li class="technologies__item">
+                            <img class="technologies__logo" src="./assets/images/technologies/Css.svg"
+                                alt="Logo Css">
+                        </li>
+                        <li class="technologies__item">
+                            <img class="technologies__logo" src="assets/images/technologies/JavaScript.svg"
+                                alt="Logo JavaScript">
+                        </li>
+                    </ul>
+                    <div class="card__buttons">
+                        <button class="btn btn--primary">
+                            <a href="https://caroline-a-martins.github.io/piano-simulator-js/" target="_blank">
+                                <span>Prévia</span>
+                                <i class="bi bi-arrow-up-right"></i>
+                            </a>
+                        </button>
+                        <button class="btn">
+                            <a href="https://github.com/Caroline-A-Martins/piano-simulator-js.git" target="_blank">
+                                <span>Repositório</span>
+                            </a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="projects__card">
+                <img class="card__cover" src="assets/images/projects/YuGiOh-Jokenpo.png"
+                    alt="Capa Yu-Gi-Oh versão Jo-ken-po">
+                <div class="card__body">
+                    <h3 class="card__title">Yu-Gi-Oh | Jo-ken-po Edition</h3>
+                    <p class="card__description">Jogo baseado no clássico Jo-Ken-Po, mas com uma temática incrível de
+                        Yu-Gi-Oh.</p>
+                    <ul class="card__list">
+                        <li class="card__item">Seleção de cartas</li>
+                        <li class="card__item">Rodadas interativas</li>
+                        <li class="card__item">Placar dinâmico.</li>
+                    </ul>
+                    <ul class="technologies__list">
+                        <li class="technologies__item">
+                            <img class="technologies__logo" src="./assets/images/technologies/Html.svg" alt="Logo HTML">
+                        </li>
+                        <li class="technologies__item">
+                            <img class="technologies__logo" src="./assets/images/technologies/Css.svg"
+                                alt="Logo Css">
+                        </li>
+                        <li class="technologies__item">
+                            <img class="technologies__logo" src="assets/images/technologies/JavaScript.svg"
+                                alt="Logo JavaScript">
+                        </li>
+                    </ul>
+                    <div class="card__buttons">
+                        <button class="btn btn--primary">
+                            <a href="https://caroline-a-martins.github.io/Yu-Gi-Oh-Jo-ken-po-Edition/" target="_blank">
+                                <span>Prévia</span>
+                                <i class="bi bi-arrow-up-right"></i>
+                            </a>
+                        </button>
+                        <button class="btn">
+                            <a href="https://github.com/Caroline-A-Martins/Yu-Gi-Oh-Jo-ken-po-Edition.git"
+                                target="_blank">
+                                <span>Repositório</span>
+                            </a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/Caroline-A-Martins?tab=repositories" target="_blank">
+                <button class="btn btn--primary">
+                    <span>Ver Todos os Projetos</span>
+                    <i class="bi bi-arrow-up-right"></i>
+                </button>
+            </a>
+        </div>
+    </section>
+
+    <section id="sobre" class="about">
+        <div class="about__content1">
+            <img class="about__photo" src="assets/images/avatar.jpg" alt="">
+            <div class="about__description">
+                <h2>Sobre mim</h2>
+                <p>Caroline Martins. Apaixonada por artes e tecnologia, tive contato com HTML, CSS e um pouco de
+                    JavaScript no inicio da faculdade.
+                    Atualmente me mantenho atualizada estudando pela internet e atuo como Social Media Designer.
+                </p>
+                <div class="about__icons">
+                    <i class="bi bi-translate"></i>
+                    <span>Inglês: Básico | Espanhol: Básico</span>
+                </div>
+                <div class="description__buttons">
+                    <a href="https://www.linkedin.com/in/caroline-amancio-martins/" target="_blank">
+                        <button class="btn btn--primary">
+                            <span>Conecte-se Comigo</span>
+                            <i class="bi bi-arrow-up-right"></i>
+                        </button>
+                    </a>
+                    <a href="assets/pdf/Curriculo.pdf" target="_blank">
+                        <button class="btn">
+                            <span>Currículo</span>
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="about__content2">
+            <div class="col1">
+                <div class="row1">
+                    <h3>Formação</h3>
+                    <h4>Análise e Desenvolvimento de Sistemas</h4>
+                    <span>02/2021 - 08/2024</span>
+                    <div class="about__icons">
+                        <i class="bi bi-bank"></i>
+                        <span>Fatec Itapetininga</span>
+                    </div>
+                    <div class="about__icons">
+                        <i class="bi bi-mortarboard"></i>
+                        <span>Graduação</span>
+                    </div>
+                </div>
+                <div class="row2">
+                    <h3>Experiências</h3>
+                    <h4>Atendente de Lan House</h4>
+                    <span>Lan House Redemoinho</span>
+                    <span>04/11/2024 - Atualmente</span>
+
+                    <ul class="about__list">
+                        <li class="about__item">Atendimento ao cliente, auxiliando em serviços de impressão de
+                            documentos e montagem de currículos;</li>
+                        <li class="about__item">Suporte na organização e limpeza do ambiente de trabalho;</li>
+                        <li class="about__item">Responsável pelo controle de entrada e saída do caixa;</li>
+                        <li class="about__item">Limpeza do ambiente de trabalho.</li>
+                    </ul>
+                    <h4>Estagiária</h4>
+                    <span>Prefeitura Municipal de Itapetininga | Setor de Contabilidade</span>
+                    <span>10/2021 - 10/2022</span>
+
+                    <ul class="about__list">
+                        <li class="about__item">Atendimento ao público</li>
+                        <li class="about__item">Suporte na verificação de documentos fiscais;</li>
+                        <li class="about__item">Análise de processos contábeis e elaboração de relatórios financeiros e
+                            administrativos;</li>
+                        <li class="about__item">Organização e manutenção de planilhas e arquivos para fácil acesso à
+                            informação;</li>
+                        <li class="about__item"> Registro e acompanhamento de processos contábeis em sistema de gestão
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col2">
+                <h3>Cursos</h3>
+                <div id="accordion">
+                    <div class="accordion__item">
+                        <button class="accordion__header">
+                            <span>Atendimento ao Público</span>
+                            <i class="bi bi-caret-down-fill"></i>
+                        </button>
+                        <div class="accordion__body">
+                            <p>
+                                Fundação Bradesco. Nov 2024. 10hrs.
+                            </p>
+                            <p>
+                                Conceitos essenciais de atendimento ao cliente, com foco em técnicas de comunicação,
+                                empatia e solução de problemas. Estratégias para oferecer um serviço de qualidade e
+                                lidar com diferentes perfis de clientes.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="accordion__item">
+                        <button class="accordion__header">
+                            <span>Bootcamp Microsoft Copilot AI</span>
+                            <i class="bi bi-caret-down-fill"></i>
+                        </button>
+                        <div class="accordion__body">
+                            <p>
+                                Digital Innovation One. Ago 2024. 29hrs.
+                            </p>
+                            <p>
+                                Introdução ao Microsoft Copilot AI e suas aplicações no ambiente de trabalho. Exploração
+                                de funcionalidades de automação e integração com ferramentas do Microsoft 365, visando
+                                aumentar a produtividade e eficiência nas tarefas.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="accordion__item">
+                        <button class="accordion__header">
+                            <span>Fundamentos do Design da Experiência do Usuário (UX)</span>
+                            <i class="bi bi-caret-down-fill"></i>
+                        </button>
+                        <div class="accordion__body">
+                            <p>
+                                Coursera. Mai 2024. 20hrs.
+                            </p>
+                            <p>
+                                Princípios do UX Design, incluindo pesquisa de usuários, criação de personas, wireframes
+                                e prototipagem. Técnicas para desenvolver interfaces intuitivas e melhorar a experiência
+                                do usuário em produtos digitais.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="accordion__item active">
+                        <button class="accordion__header start">
+                            <span>Excel</span>
+                            <i class="bi bi-caret-down-fill"></i>
+                        </button>
+                        <div class="accordion__body">
+                            <p>
+                                Curso em Vídeo. Jan 2023. 40hrs.
+                            </p>
+                            <p>
+                                Fundamentos e funcionalidades do Excel, desde a navegação pela interface até o uso de
+                                fórmulas e funções básicas. Manipulação e formatação de planilhas, criação de gráficos e
+                                tabelas dinâmicas. Uso de filtros e ferramentas de análise de dados, além de dicas para
+                                automatizar tarefas e aumentar a produtividade com o software.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="accordion__item">
+                        <button class="accordion__header">
+                            <span>Curso HTML5 e CSS3: Módulo 1</span>
+                            <i class="bi bi-caret-down-fill"></i>
+                        </button>
+                        <div class="accordion__body">
+                            <p>
+                                Curso em Vídeo. Dez 2022. 40hrs.
+                            </p>
+                            <p>
+                                Introdução ao desenvolvimento web com HTML5 e CSS3. Estruturação de páginas web, uso de
+                                elementos semânticos, estilização e layout responsivo. Criação de sites com boas
+                                práticas de codificação e acessibilidade.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="accordion__item">
+                        <button class="accordion__header">
+                            <span>Python 3 - Módulo 2</span>
+                            <i class="bi bi-caret-down-fill"></i>
+                        </button>
+                        <div class="accordion__body">
+                            <p>
+                                Curso em Vídeo. Jan 2022. 40hrs.
+                            </p>
+                            <p>
+                                Avanço no aprendizado de Python 3, abordando estruturas de repetição, listas, tuplas e
+                                dicionários. Desenvolvimento de programas mais complexos e introdução a conceitos de
+                                modularização e manipulação de arquivos.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="accordion__item">
+                        <button class="accordion__header">
+                            <span>Python 3 - Módulo 1</span>
+                            <i class="bi bi-caret-down-fill"></i>
+                        </button>
+                        <div class="accordion__body">
+                            <p>
+                                Curso em Vídeo. Jan 2022. 40hrs.
+                            </p>
+                            <p>
+                                Conceitos básicos de programação com Python 3. Tipos de dados, operações básicas,
+                                estruturação de código e criação de scripts simples. Foco na lógica de programação e
+                                primeiros passos na linguagem.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+    </section>
+
+    <section id="contato" class="contact">
+        <h2>Contate-me</h2>
+        <p>Estou disponível para serviços e novas conexões. Contate-me via
+            e-mail e conecte-se comigo através das minhas redes sociais.
+        </p>
+        <ul class="menu menu--social">
+            <li>
+                <a class="menu__link" href="https://github.com/Caroline-A-Martins" target="_blank">
+                    <i class="menu__icon bi bi-github"></i>
+                    <span>GitHub</span>
+                </a>
+            </li>
+            <li>
+                <a class="menu__link" href="https://www.linkedin.com/in/caroline-amancio-martins/" target="_blank">
+                    <i class="menu__icon bi bi-linkedin"></i>
+                    <span>LinkedIn</span>
+                </a>
+            </li>
+            <li>
+                <a class="menu__link" href="https://www.instagram.com/mcarolzita/" target="_blank">
+                    <i class="menu__icon bi bi-instagram"></i>
+                    <span>Instagram</span>
+                </a>
+            </li>
+        </ul>
+        <a href="mailto:business.carolmartins@gmail.com">
+            <button class="btn btn--primary">
+                <span class="email">business.carolmartins@gmail.com</span>
+            </button>
+        </a>
+    </section>
+
+    <footer>
+        <p>
+            © 2023. Portfólio desenvolvido para fins educativos no Lab "Construindo seu Portfolio Front-end do Zero" da
+            <a href="https://www.dio.me/" target="_blank">Digital Innovation One</a> por
+            <a href="https://github.com/elidianaandrade" target="_blank">Elidiana Andrade</a>.
+        </p>
+    </footer>
+    <script src="assets/js/scripts.js"></script>
+</body>
+
+</html>
