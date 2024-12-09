@@ -1,41 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@200;400&display=swap');
-
 :root,
 :root[data-theme='dark'] {
-     --primary-color: #9E8EC9;
-
-    --primary-bg-color: #090708;
-    --secondary-bg-color: #20162F;
-    --primary-border-color: #b4a2ef;
-    --secondary-border-color: #957EA8;
-
-    --title-color: #D0B5F5;
-    --text-color: #bcacc9;
-    --link-color: #a38db5;
-    --icon-color: #D1C0E9;
-    --box-shadow: 10px 10px 15px -5px rgba(0, 0, 0, 0.6);
+    --primary-color: #9A7BFF;
+    --primary-bg-color: #120526;
+    --secondary-bg-color: #2A085F;
+    --primary-border-color: #7A5BE8;
+    --secondary-border-color: #5A4979;
+    --title-color: #D6D6FF;
+    --text-color: #E0E0FF;
+    --text2-color: #9B8BBF;
+    --link-color: #B0A1FF;
+    --icon-color: #D1C7F3;
+    --box-shadow: 10px 10px 15px -5px rgba(89, 69, 160, 0.6);
 }
 
 :root[data-theme='light'] {
-    --primary-color: #5D3F6B;
-
-    --primary-bg-color: #F7F7FF;
-    --secondary-bg-color: #E4D7F1;
-    --primary-border-color: #B29AE5;
-    --secondary-border-color: #A08EC9;
-
-    --title-color: #2E1C44;
-    --text-color: #6A4F7D;
-    --link-color: #4F3C6D;
-    --icon-color: #6B5D8D;
-    --box-shadow: 10px 10px 15px -5px rgba(90, 40, 85, 0.2);
+    --primary-color: #4E2D92;
+    --primary-bg-color: #F3F1FF;
+    --secondary-bg-color: #E2D7FF;
+    --primary-border-color: #8A6CC4;
+    --secondary-border-color: #7059A1;
+    --title-color: #2B1354;
+    --text-color: #453177;
+    --link-color: #5F44A5;
+    --icon-color: #6C567F;
+    --box-shadow: 10px 10px 15px -5px rgba(88, 68, 149, 0.5);
 }
 
 
 html[data-theme='dark'] .technologies__logo {
     filter: invert(80%);
 }
+
 
 * {
     margin: 0;
@@ -490,6 +487,10 @@ main {
     align-items: flex-start;
     gap: 0.625rem;
     border: 1px solid var(--primary-border-color);
+}
+
+.accordion__body p {
+    color: var(--text2-color);
 }
 
 .accordion__item.active .accordion__header {
