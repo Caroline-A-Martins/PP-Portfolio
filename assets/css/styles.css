@@ -3,7 +3,7 @@
 
 :root,
 :root[data-theme='dark'] {
-    --primary-color: #9E8EC9;
+     --primary-color: #9E8EC9;
 
     --primary-bg-color: #090708;
     --secondary-bg-color: #20162F;
@@ -16,7 +16,6 @@
     --icon-color: #D1C0E9;
     --box-shadow: 10px 10px 15px -5px rgba(0, 0, 0, 0.5);
 }
-
 
 :root[data-theme='light'] {
     --primary-color: #5D3F6B;
