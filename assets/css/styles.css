@@ -5,14 +5,14 @@
 :root[data-theme='dark'] {
     --primary-color: #9E8EC9;
 
-    --primary-bg-color: #0a0618;
-    --secondary-bg-color: #2E1A56;
+    --primary-bg-color: #090708;
+    --secondary-bg-color: #20162F;
     --primary-border-color: #b4a2ef;
-    --secondary-border-color: #907ca5;
+    --secondary-border-color: #957EA8;
 
     --title-color: #D0B5F5;
-    --text-color: #ac9ec2;
-    --link-color: #a893bb;
+    --text-color: #bcacc9;
+    --link-color: #a38db5;
     --icon-color: #D1C0E9;
     --box-shadow: 10px 10px 15px -5px rgba(0, 0, 0, 0.5);
 }
