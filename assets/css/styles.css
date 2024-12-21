@@ -1,18 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@200;400&display=swap');
+
 :root,
 :root[data-theme='dark'] {
-    --primary-color: #d0c6f6; /* Cor principal roxo azulado */
-    --primary-bg-color: #140f3c; /* Cor de fundo escura */
-    --secondary-bg-color: #4a379e; /* Cor de fundo secundária roxo mais intenso */
-    --primary-border-color: #8B8AB4; /* Cor da borda mais clara */
-    --secondary-border-color: #A88BDF; /* Cor da borda secundária roxo claro */
-    --title-color: #C5C3C4; /* Cor do título (cinza claro) */
-    --text-color: #B7A2C9; /* Cor do texto (roxo acinzentado) */
-    --text2-color: #8B8AB4; /* Cor do texto secundário (roxo claro) */
-    --link-color: #A88BDF; /* Cor do link (roxo claro) */
-    --icon-color: #C5C3C4; /* Cor dos ícones (cinza claro) */
-    --box-shadow: 10px 10px 15px -5px rgba(89, 69, 160, 0.6); /* Sombra da caixa */
+    --primary-color: #d0c6f6;
+    --primary-bg-color: #0c082d;
+    --secondary-bg-color: #4a379e;
+    --primary-border-color: #8B8AB4;
+    --secondary-border-color: #A88BDF;
+    --title-color: #C5C3C4;
+    --text-color: #B7A2C9;
+    --text2-color: #8B8AB4;
+    --link-color: #A88BDF;
+    --icon-color: #C5C3C4;
+    --box-shadow: 10px 10px 15px -5px rgba(89, 69, 160, 0.6);
 }
 
 :root[data-theme='light'] {
@@ -630,7 +631,7 @@ footer p {
         text-align: left;
     }
 
-    .about__photo{
+    .about__photo {
         width: 80%;
     }
 
