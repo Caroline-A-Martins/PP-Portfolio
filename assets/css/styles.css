@@ -2,30 +2,35 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@200;400&display=swap');
 :root,
 :root[data-theme='dark'] {
-    --primary-color: #9A7BFF;
-    --primary-bg-color: #120526;
-    --secondary-bg-color: #2A085F;
-    --primary-border-color: #7A5BE8;
-    --secondary-border-color: #5A4979;
-    --title-color: #D6D6FF;
-    --text-color: #E0E0FF;
-    --text2-color: #9B8BBF;
-    --link-color: #B0A1FF;
-    --icon-color: #D1C7F3;
-    --box-shadow: 10px 10px 15px -5px rgba(89, 69, 160, 0.6);
+    --primary-color: #d0c6f6; /* Cor principal roxo azulado */
+    --primary-bg-color: #140f3c; /* Cor de fundo escura */
+    --secondary-bg-color: #4a379e; /* Cor de fundo secundária roxo mais intenso */
+    --primary-border-color: #8B8AB4; /* Cor da borda mais clara */
+    --secondary-border-color: #A88BDF; /* Cor da borda secundária roxo claro */
+    --title-color: #C5C3C4; /* Cor do título (cinza claro) */
+    --text-color: #B7A2C9; /* Cor do texto (roxo acinzentado) */
+    --text2-color: #8B8AB4; /* Cor do texto secundário (roxo claro) */
+    --link-color: #A88BDF; /* Cor do link (roxo claro) */
+    --icon-color: #C5C3C4; /* Cor dos ícones (cinza claro) */
+    --box-shadow: 10px 10px 15px -5px rgba(89, 69, 160, 0.6); /* Sombra da caixa */
 }
 
 :root[data-theme='light'] {
-    --primary-color: #4E2D92;
+    --primary-color: #230365;
     --primary-bg-color: #F3F1FF;
     --secondary-bg-color: #E2D7FF;
     --primary-border-color: #8A6CC4;
     --secondary-border-color: #7059A1;
     --title-color: #2B1354;
-    --text-color: #453177;
+    --text-color: #6f5d9c;
     --link-color: #5F44A5;
     --icon-color: #6C567F;
     --box-shadow: 10px 10px 15px -5px rgba(88, 68, 149, 0.5);
+}
+
+
+html[data-theme='dark'] .technologies__logo {
+    filter: invert(80%);
 }
 
 
@@ -119,9 +124,6 @@ li {
     font-size: 1rem;
 }
 
-p {
-    text-align: justify;
-}
 
 .header {
     display: flex;
@@ -194,11 +196,11 @@ p {
 }
 
 .menu__icon {
-    font-size: 1.5rem;
+    font-size: 1.9rem;
 }
 
 .menu__text {
-    font-size: .75rem;
+    font-size: .85rem;
     text-transform: uppercase;
 }
 
@@ -332,7 +334,7 @@ main {
 }
 
 .card__cover {
-    width: 80%;
+    width: 100%;
     border-radius: 0.5rem;
     object-fit: cover;
     object-position: center;
@@ -618,14 +620,18 @@ footer p {
     .about__content1,
     .about__content2 {
         display: grid;
-        grid-template-columns: 40% 60%;
+        grid-template-columns: 50% 50%;
         justify-content: flex-start;
         align-items: flex-start;
-        gap: 4rem;
+        gap: 3rem;
     }
 
     .about__description h2 {
         text-align: left;
+    }
+
+    .about__photo{
+        width: 80%;
     }
 
     .description__buttons {
