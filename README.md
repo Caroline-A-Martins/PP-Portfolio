@@ -14,8 +14,7 @@ Este portfólio foi desenvolvido para apresentar minhas experiências, projetos 
 ## 🛠️ Tecnologias Utilizadas
 - **HTML5**  
 - **CSS3**  
-- **JavaScript**  
-- **Bootstrap**  
+- **JavaScript** 
 - **Git & GitHub**  
 - **Figma (UI/UX Design)**
    
@@ -23,7 +22,6 @@ Este portfólio foi desenvolvido para apresentar minhas experiências, projetos 
 - Apresentação profissional e links para redes sociais.
 - Seção de projetos com descrição e links para repositórios no GitHub.
 - Certificados e formações.
-- Contato direto via formulário.
 
 ## 📧 Contato
 - **Email:** [business.carolmartins@gmail.com](mailto:business.carolmartins@gmail.com)
