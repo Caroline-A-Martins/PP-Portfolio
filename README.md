@@ -14,8 +14,7 @@ Este portfólio foi desenvolvido para apresentar minhas experiências, projetos 
 ## 🛠️ Tecnologias Utilizadas
 - **HTML5**  
 - **CSS3**  
-- **JavaScript**  
-- **Bootstrap**  
+- **JavaScript** 
 - **Git & GitHub**  
 - **Figma (UI/UX Design)**
    
